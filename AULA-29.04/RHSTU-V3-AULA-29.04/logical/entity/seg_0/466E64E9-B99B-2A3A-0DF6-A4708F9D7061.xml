@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="466E64E9-B99B-2A3A-0DF6-A4708F9D7061" name="T_RHSTU_MEDICAMENTO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:11:51 UTC</createdTime>
+<ownerDesignName>RHSTU-V3-AULA-29.04</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_MEDICAMENTO" id="4AD294FF-970F-B8E8-1386-EE80E4005459">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:12:19 UTC</createdTime>
+<ownerDesignName>RHSTU-V3-AULA-29.04</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_MEDICAMENTO" id="78D9675A-0A7A-1DF7-25C2-CF998D70C6ED">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:13:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOME DA MEDICAÇÃO ]]></commentInRDBMS>
+<ownerDesignName>RHSTU-V3-AULA-29.04</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="639ED94E-8CA0-D177-1ADD-B84D2D2F905F" name="T_RHSTU_MEDICAMENTO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:12:39 UTC</createdTime>
+<ownerDesignName>RHSTU-V3-AULA-29.04</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4AD294FF-970F-B8E8-1386-EE80E4005459</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

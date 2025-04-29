@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9A0EEFE-2E88-7336-728E-7DA153F4F5AF" name="T_RHSTU_PRESCRICAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 11:57:22 UTC</createdTime>
+<ownerDesignName>RHSTU-V3-AULA-29.04</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_MEDICAMENTO" id="582A63C7-B0B8-BD5F-E928-ABEFE84C50EC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:21:43 UTC</createdTime>
+<generatorID>DFB2A60B-99A6-B93B-8B98-1B501825413E</generatorID>
+<ownerDesignName>RHSTU-V3-AULA-29.04</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>4AD294FF-970F-B8E8-1386-EE80E4005459</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CONSULTA" id="FC90ABA8-BCE6-3AA4-A927-2BBAC3171D22">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:07:46 UTC</createdTime>
+<generatorID>3F211B5D-5132-E9F0-6EF4-71FECEAC8F74</generatorID>
+<ownerDesignName>RHSTU-V3-AULA-29.04</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>4DC2BBD4-5844-F984-AA0B-B83576D7F211</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_UNID_HOSPITAL" id="F2EC558A-D22A-9468-3CE9-FFECBE1F70DD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:07:46 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>3F211B5D-5132-E9F0-6EF4-71FECEAC8F74</generatorID>
+<ownerDesignName>RHSTU-V3-AULA-29.04</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>B6C488CB-AE82-A793-0536-0FCACEBB3861</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_APLICACAO" id="F230C92E-F30C-7455-F8C9-5A6C63D5D5CA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 11:58:51 UTC</createdTime>
+<ownerDesignName>RHSTU-V3-AULA-29.04</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_POSOLOGIA" id="70CD1F52-6279-FBDE-7688-5BD5D8B99841">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 11:59:34 UTC</createdTime>
+<ownerDesignName>RHSTU-V3-AULA-29.04</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ORIENTACAO_USO" id="FD8495ED-E97D-9A64-D2DF-8893774755EF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:00:41 UTC</createdTime>
+<ownerDesignName>RHSTU-V3-AULA-29.04</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_VIA_APLICACAO" id="F8CF90AD-CF87-1521-EA6A-1C55E3C39AC0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:01:33 UTC</createdTime>
+<ownerDesignName>RHSTU-V3-AULA-29.04</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0035934-5601-C39B-166F-740B7F2CEE13" name="T_RHSTU_PRESCRICAO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:04:16 UTC</createdTime>
+<ownerDesignName>RHSTU-V3-AULA-29.04</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>582A63C7-B0B8-BD5F-E928-ABEFE84C50EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
