@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0386DA04-46CA-35FE-3FC0-693A7A66C1D6" name="T_RHSTU_PGTO_CARTAO_CREDITO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:55:54 UTC</createdTime>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONSULTA_FORMA_PAGTO" id="298590AD-F37E-E288-EC6C-C053DE147E42">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:07:15 UTC</createdTime>
+<generatorID>E0E852C3-B861-B544-87B2-090815DF7348</generatorID>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>ADD37499-0A55-F7B7-05D0-4CDA34F30DB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BANDEIRA" id="AA5CF099-DB76-7815-5997-B6F7D7B65425">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:56:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOME DA BANDEIRA DO CARTAO]]></commentInRDBMS>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CARTAO_CREDITO" id="28DE531F-ED79-8877-DFAE-B904FA01D664">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:56:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DO CARTAO DE CREDITO]]></commentInRDBMS>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_VENCIMENTO_CARTAO" id="7E205EE5-0736-C489-CCCA-41F3CEAC5B30">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:57:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA QUE EXPIRA O CARTAO DE CRÉDITO]]></commentInRDBMS>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="01F440D7-75F7-98E6-6D25-E06E890225EE" name="CARTAO_CREDITO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:07:31 UTC</createdTime>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>298590AD-F37E-E288-EC6C-C053DE147E42</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

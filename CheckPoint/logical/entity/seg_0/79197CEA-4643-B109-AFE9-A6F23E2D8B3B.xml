@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79197CEA-4643-B109-AFE9-A6F23E2D8B3B" name="T_RHSTU_PGTO_CARTAO_DEBITO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:58:58 UTC</createdTime>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONSULTA_FORMA_PAGTO" id="A45AF580-CC50-029F-FFD3-5023A4614DD5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:04:20 UTC</createdTime>
+<generatorID>4CCA1644-F48E-EE56-1F72-A08755B62917</generatorID>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>ADD37499-0A55-F7B7-05D0-4CDA34F30DB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CARTAO_DEBITO" id="82B20587-2E67-1A9C-7A60-7386FA9D9D80">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:59:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DO CARTAO DE DEBITO]]></commentInRDBMS>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1FFD6073-CE2B-649D-757B-BBE20C0481F7" name="CARTAO_DEBITO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:05:22 UTC</createdTime>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A45AF580-CC50-029F-FFD3-5023A4614DD5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

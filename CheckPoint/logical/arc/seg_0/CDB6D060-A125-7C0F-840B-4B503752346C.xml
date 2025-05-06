@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="CDB6D060-A125-7C0F-840B-4B503752346C" name="Arc_1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:10:37 UTC</createdTime>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<entity>59D118B8-7019-669A-9873-2AC021E05E28</entity>
+<relations>
+<relationID>E0E852C3-B861-B544-87B2-090815DF7348</relationID>
+<relationID>07246E14-C2F6-76B8-03E1-4A4F8E02EF73</relationID>
+<relationID>4CCA1644-F48E-EE56-1F72-A08755B62917</relationID>
+<relationID>8969FCDB-8C70-565C-A72D-40EFFB62D0B9</relationID>
+</relations>
+</Arc>

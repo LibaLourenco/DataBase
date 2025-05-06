@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PGTO_CONVENIO_MEDICO" directorySegmentName="seg_0" id="8969FCDB-8C70-565C-A72D-40EFFB62D0B9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:03:59 UTC</createdTime>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>668CF5F0-C569-ACDC-0D79-CEF91E54611E</sourcePk>
+<arc>CDB6D060-A125-7C0F-840B-4B503752346C</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>59D118B8-7019-669A-9873-2AC021E05E28</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>88B7E9C0-8843-8A19-B16F-4F8B4741C6FD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

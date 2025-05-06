@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88B7E9C0-8843-8A19-B16F-4F8B4741C6FD" name="T_RHSTU_PGTO_CONVENIO_MEDICO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:46:28 UTC</createdTime>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONSULTA_FORMA_PAGTO" id="B957C4CF-80A0-5D79-DAC5-A42D5BB8798C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:03:59 UTC</createdTime>
+<generatorID>8969FCDB-8C70-565C-A72D-40EFFB62D0B9</generatorID>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>ADD37499-0A55-F7B7-05D0-4CDA34F30DB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CARTEIRA" id="BBFD787B-50FB-EFC6-F150-E278EFF47D27">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:47:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DA CARTEIRA DO CONVENIO]]></commentInRDBMS>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_VENCIMENTO" id="50A654B9-EFD9-050F-53CF-8B3FE5841110">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:49:05 UTC</createdTime>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA55B169-5EEE-6DD7-1617-FFD8B1F41DA2" name="CONVENIO_MEDICO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:05:11 UTC</createdTime>
+<ownerDesignName>CheckPoint</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B957C4CF-80A0-5D79-DAC5-A42D5BB8798C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
